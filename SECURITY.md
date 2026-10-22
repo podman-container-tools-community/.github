@@ -22,9 +22,6 @@ Please report it privately through
 **[GitHub private vulnerability reporting](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability)**
 in the affected repository (Security → Report a vulnerability). Do not open a public issue.
 
-<!-- TODO(Joe): enable private vulnerability reporting on skopeo, buildah and podman
-     (Settings → Code security), and optionally add an e-mail contact here. -->
-
 This is a volunteer effort. We aim to acknowledge reports within a week, but cannot promise
 response times.
 

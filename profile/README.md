@@ -19,8 +19,6 @@ packages are missing or several releases behind, such as CI runners and minimal 
 | **Buildah** | [podman-container-tools-community/buildah](https://github.com/podman-container-tools-community/buildah) | `ghcr.io/podman-container-tools-community/buildah` |
 | **Podman** | [podman-container-tools-community/podman](https://github.com/podman-container-tools-community/podman) | `ghcr.io/podman-container-tools-community/podman` |
 
-<!-- TODO(Joe): mark Buildah and Podman as "work in progress" or remove the rows until their first release is out. -->
-
 Each repository's README has install instructions, the supported platforms and the known
 limitations of the static builds.
 

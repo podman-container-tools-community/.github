@@ -8,6 +8,5 @@ the work.
 
 ## Reporting
 
-If you experience or witness unacceptable behavior, contact the maintainers at
-<!-- TODO(Joe): add a contact address -->**TODO: contact address**.
+If you experience or witness unacceptable behavior, contact the maintainers by reaching out to [@jkroepke](https://github.com/jkroepke) on GitHub.
 All reports are handled confidentially.
