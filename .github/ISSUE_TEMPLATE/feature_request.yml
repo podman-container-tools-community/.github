@@ -1,0 +1,17 @@
+name: Request a platform or feature
+description: Ask for a new architecture, package format or release option.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: request
+    attributes:
+      label: What would you like?
+      description: For example a new architecture, an older upstream version, or a package format.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why do you need it?
+    validations:
+      required: true

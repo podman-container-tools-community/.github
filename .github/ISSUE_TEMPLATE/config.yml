@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Bug in Podman, Buildah or Skopeo itself
+    url: https://github.com/podman-container-tools
+    about: If the problem also happens with an official build, report it to the upstream project.
+  - name: Security vulnerability
+    url: https://github.com/podman-container-tools-community/.github/blob/main/SECURITY.md
+    about: Please do not open a public issue. Follow our security policy.

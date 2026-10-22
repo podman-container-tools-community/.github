@@ -1,0 +1,49 @@
+name: Problem with a community build
+description: Report a problem with our binaries, packages, images or release process.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is **not** the upstream project. Please only report problems specific to our builds here.
+        If the bug also happens with an official build, report it [upstream](https://github.com/podman-container-tools).
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Output of `<tool> --version`, and the release or image tag you used.
+    validations:
+      required: true
+  - type: dropdown
+    id: artifact
+    attributes:
+      label: Artifact
+      options:
+        - Static binary
+        - Container image (ghcr.io)
+        - deb package / apt repository
+        - rpm package
+        - Release process / signatures
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      description: OS, distribution and architecture, for example "Ubuntu 24.04, arm64".
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Steps to reproduce, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: official
+    attributes:
+      label: Does it happen with an official build?
+      description: For example the distribution package or the upstream image. If you could not check, say so.
+    validations:
+      required: true
