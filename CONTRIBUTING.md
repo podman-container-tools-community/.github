@@ -18,8 +18,9 @@ the unmodified upstream release. That rule is what makes our builds verifiable.
 
 1. Open an issue first for anything larger than a small fix, so we can agree on the approach.
 2. Fork the repository and create a branch.
-3. Keep pull requests focused. Pull requests run a dry-run build, which has to pass.
-4. Explain in the pull request what you changed and how you tested it.
+3. Sign off every commit (`git commit -s`) to certify the [Developer Certificate of Origin](https://developercertificate.org/).
+4. Keep pull requests focused. Pull requests run a dry-run build, which has to pass.
+5. Explain in the pull request what you changed and how you tested it.
 
 ## Reporting problems
 
