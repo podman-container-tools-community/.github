@@ -22,6 +22,9 @@ the unmodified upstream release. That rule is what makes our builds verifiable.
 4. Keep pull requests focused. Pull requests run a dry-run build, which has to pass.
 5. Explain in the pull request what you changed and how you tested it.
 
+Each repository's `AGENTS.md` describes how its build works, how to run its tests and its
+release workflows, for people and coding agents alike.
+
 ## Reporting problems
 
 - A problem with our binaries, images, packages or release process: open an issue in the matching
