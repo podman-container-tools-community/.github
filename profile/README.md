@@ -33,7 +33,7 @@ Our repositories contain **only build configuration**. Nothing in them can chang
 - **Signed and attested.** Checksums and images are signed keyless with
   [cosign](https://github.com/sigstore/cosign) through GitHub OIDC, and every released file gets a
   GitHub build provenance attestation.
-- **Reproducible.** With the same Go version, anyone can rebuild bit-for-bit identical binaries.
+- **Reproducible.** With the same Go and zig versions, anyone can rebuild bit-for-bit identical binaries.
 
 Each repository's README shows how to verify a binary or an image.
 
